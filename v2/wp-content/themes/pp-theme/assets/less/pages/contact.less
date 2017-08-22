@@ -1,0 +1,86 @@
+/**
+ * Contact Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 3, 2017 
+ **/
+
+.contact {
+	.content-wrapper {
+		background: @color-pink-three url("../img/backgrounds/particle-only-bg.png") no-repeat !important;
+		min-height: 665px;
+
+		@media screen and (max-width: @screen-sm-max) {
+			background-image: none !important;
+			min-height: auto;
+		}
+
+		&:before {
+			display: none;
+		}
+
+		.content-inside {
+			.title {
+				color: @color-white;
+			}
+
+			.forms {
+				margin-left: 60px;
+				margin-right: 60px;
+
+				@media screen and (max-width: @screen-sm-max) {
+					margin-left: 20px;
+					margin-right: 20px;
+				}
+
+				p {
+					text-align: center;
+					color: @color-white;
+					text-transform: uppercase;
+					font-family: 'Montserrat-Bold', sans-serif;
+					font-size: 1.2em;
+					margin-top: 40px;
+
+					@media screen and (max-width: @screen-sm-max) {
+						font-size: 0.9em;
+					}
+				}
+				
+
+				/**
+				 * WPCF
+				 **/
+				.wpcf7 {
+					margin-top: 40px;
+
+					.wpcf7-submit {
+						font-family: 'Montserrat-Regular', sans-serif;
+						background-color: @color-orange;
+						color: @color-white;
+						border-radius: 40px;
+						border: 0;
+						font-size: 1em;
+						padding-left: 30px;
+				    	padding-right: 30px;
+
+				    	&:hover,
+				    	&:active, 
+				    	&:focus {
+				    		outline: 0;
+				    	}
+					}
+
+					.wpcf7-not-valid-tip {
+						margin-top: 8px;
+						font-size: 0.8em;
+    					text-transform: initial;
+					}
+
+					.wpcf7-validation-errors {
+						display: none !important;
+					}
+				}
+			}
+		}
+	}
+}

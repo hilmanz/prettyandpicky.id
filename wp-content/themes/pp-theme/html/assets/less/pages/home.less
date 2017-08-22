@@ -1,0 +1,133 @@
+/**
+ * Homepage Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 2, 2017 
+ **/
+
+/**
+ * Top Video 
+ **/
+.top__video {
+	background: transparent url("../img/video-placeholder.png") center center / cover;
+	// width: 100vw;
+	height: calc(~"100vh - 80px");
+	padding-top: calc(~"50vh - 139px");
+	margin-top: -96px;
+
+	iframe {
+		display: none;
+		width: 100vw;
+		height: calc(~"100vh - 81px");
+		margin-top: -75px;
+	}
+}
+
+.main__banner {
+	background-color: @color-pink;
+	padding-top: 80px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.content-wrapper {
+	// background: transparent url("../img/article-home-bg.png") no-repeat;
+	.widgets-wrapper {
+		.widgets {
+			&.banners {
+				width: 587px;
+				height: 318px;
+				margin: 0 auto;
+				padding: 80px 200px 60px 60px;
+
+				h5 {
+					font-family: 'Montserrat-Bold', sans-serif;
+					text-transform: uppercase;
+					margin: 0 0 20px 0;
+				}
+
+				&.dibalik-fakta {
+					background: transparent url("../img/banner1-bg.png") no-repeat;
+					float: right;
+		
+					h5 {
+						color: @color-green;
+						font-size: 2em;
+					    line-height: 1.2em;
+					}
+				}
+
+				&.bmi {
+					background: transparent url("../img/banner2-bg.png") no-repeat;
+					float: left;
+					padding-top: 30px;
+					padding-left: 30px;
+
+					h5 {
+						color: @color-white;
+						font-size: 1.5em;
+    					line-height: 1.1em;
+    					margin: 0;
+					}
+
+					.form-horizontal {
+						.form-group {
+							margin-bottom: 5px;
+
+							.row {
+								margin-left: 0;
+								width: 100%;
+    							padding-right: 80px;
+
+								.col-md-4,
+								.col-md-6,
+								.col-md-12 {
+									padding-left: 5px;
+									padding-right: 0;
+
+									&:first-child {
+										padding-left: 0;
+									}
+								}
+							}
+
+							.btn {
+								&.btn-default {
+									margin-top: 10px !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.article-widgets-wrapper, 
+		.recipes-widgets-wrapper {
+			margin-top: 80px;
+		}
+
+		.article-widgets-wrapper {
+			background: transparent url("../img/article-left-ornament.png") no-repeat top left;
+		}
+
+		.recipes-widgets-wrapper {
+			background: transparent url("../img/recipe-right-ornament.png") no-repeat top right;
+			padding-top: 80px;
+    		margin-top: 0;
+
+			.lists {
+				h3 {
+					text-align: center;
+					font-family: 'Montserrat-Regular', sans-serif;
+				}
+
+				img {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}

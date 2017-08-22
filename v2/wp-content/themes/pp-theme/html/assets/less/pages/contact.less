@@ -1,0 +1,41 @@
+/**
+ * Contact Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 3, 2017 
+ **/
+
+.contact {
+	.content-wrapper {
+		background: @color-pink-three url("../img/backgrounds/particle-only-bg.png") no-repeat !important;
+		min-height: 665px;
+
+		&:before {
+			display: none;
+		}
+
+		.content-inside {
+			.title {
+				color: @color-white;
+			}
+
+			.forms {
+				margin-left: 60px;
+				margin-right: 60px;
+
+				p {
+					text-align: center;
+					color: @color-white;
+					text-transform: uppercase;
+					font-family: 'Montserrat-Bold', sans-serif;
+					font-size: 1.2em;
+					margin-top: 40px;
+				}
+
+				.form-horizontal {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+}

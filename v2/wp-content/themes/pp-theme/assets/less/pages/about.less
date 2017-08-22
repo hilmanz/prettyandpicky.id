@@ -1,0 +1,82 @@
+/**
+ * About Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 3, 2017 
+ **/
+
+.about {
+	.content-wrapper {
+		background: @color-white url("../img/backgrounds/about-bg.png") no-repeat center center / cover;
+		height: 1285px;
+
+		@media screen and (max-width: @screen-sm-max) {
+			background: none;
+			height: auto;
+			min-height: auto;
+			padding-bottom: 20vh;
+		}
+
+		&:before {
+			display: none;
+		}
+
+		.content-inside {
+			.title {
+				color: @color-green-two;
+				margin-bottom: 80px;
+
+				@media screen and (max-width: @screen-sm-max) {
+					margin-bottom: 20px;
+				}
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+			.content-top {
+				position: relative;
+				z-index: 2;
+
+				.quote {
+					color: @color-pink;
+					font-family: 'Montserrat-Bold', sans-serif;
+				    font-size: 1.8em;
+				    text-transform: uppercase;
+				    line-height: 1.5em;
+				    margin-left: 60px;
+				    margin-top: 100px;
+
+				    @media screen and (max-width: @screen-sm-max) {
+				    	margin-left: 0;
+						margin-top: 20px;
+						font-size: 1.2em;
+						text-align: center;
+				    }
+				}
+			}
+
+			.content-bottom {
+				margin-top: -80px;
+				position: relative;
+				z-index: 1;
+				float: left;
+
+				@media screen and (max-width: @screen-sm-max) {
+					position: unset;
+    				margin-top: 0;
+				}
+
+				.content-left {
+					padding-top: 140px;
+
+					@media screen and (max-width: @screen-sm-max) {
+						padding-top: 20px;
+						margin-bottom: 40px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+[07-Mar-2017 05:17:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (--) at position 0 (-): Unexpected character' in /home/prettypicky/public_html/v2/wp-content/themes/pp-theme/template/bmi.php:16
+Stack trace:
+#0 /home/prettypicky/public_html/v2/wp-content/themes/pp-theme/template/bmi.php(16): DateTime->__construct('--')
+#1 /home/prettypicky/public_html/v2/wp-includes/template-loader.php(74): include('/home/prettypic...')
+#2 /home/prettypicky/public_html/v2/wp-blog-header.php(19): require_once('/home/prettypic...')
+#3 /home/prettypicky/public_html/v2/index.php(17): require('/home/prettypic...')
+#4 {main}
+  thrown in /home/prettypicky/public_html/v2/wp-content/themes/pp-theme/template/bmi.php on line 16
+[07-Mar-2017 21:37:17 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/prettypicky/public_html/v2/wp-content/themes/pp-theme/single.php on line 117
+[07-Mar-2017 21:37:27 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/prettypicky/public_html/v2/wp-content/themes/pp-theme/template/homepage.php on line 7

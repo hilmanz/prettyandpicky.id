@@ -1,0 +1,29 @@
+/**
+ * Pretty & Picky Website v0.0.1
+ * Pretty & Picky Website for Kana Digital
+ * Kodr Indonesia <halo@kodrindonesia.com>
+ */
+/**
+ * Homepage Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 2, 2017 
+ **/
+/**
+ * Top Video 
+ **/
+.top__video {
+  background: transparent url("../img/video-placeholder.png") center center / cover;
+  width: 100vw;
+  height: calc(100vh - 47px);
+  padding-top: calc(50vh - 139px);
+  margin-top: -67px;
+}
+.top__video iframe {
+  display: none;
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+.main__banner img {
+  width: 100%;
+}

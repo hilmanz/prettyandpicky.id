@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stick",
+				"sticky-post-image\t(recipes.html)"
+			],
+			[
+				"parti",
+				"particle-only-bg.png\t(base.less)"
+			],
+			[
+				"Mont",
+				"Montserrat-Bold"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-f",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"MOnt",
+				"Montserrat-Bold\t(_fonts.less)"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"subsc",
+				"subscriptions"
+			],
+			[
+				"Organ",
+				"OrganisationsPage"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"background-",
+				"background-repeat"
+			],
+			[
+				"extra",
+				"extra-large"
+			],
+			[
+				"ext",
+				"extra-large"
+			],
+			[
+				"section__how",
+				"section__how-to-lyric\t(index.blade.php)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/gallery.html",
+			"settings":
+			{
+				"buffer_size": 8680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/assets/less/pages/gallery.less",
+			"settings":
+			{
+				"buffer_size": 967,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/assets/less/base.less",
+			"settings":
+			{
+				"buffer_size": 6921,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/assets/less/pages/recipes.less",
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/assets/js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets/less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets/less/pages",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/inc"
+	],
+	"file_history":
+	[
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets/less/pages/articles.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets/less/pages/home.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/index.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/html/assets/less/main.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/inc/enqueue.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/assets/js/app.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/index.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/style.css",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/wp-content/themes/pp-theme/functions.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/gallery.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/base.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/_variables.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/recipes.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/index.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/about.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/articles.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/bmi.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/contact.html",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/recipes.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/contact.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/articles.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/about.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/bmi.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/main.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/pages/home.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/gulpfile.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/package.json",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/less/_fonts.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/js/app.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/kana-digital/pretty-picky-website/html/assets/css/main.css",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/malboro/mlb-the-ruling-challenge/css/style.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/widgets/statistics.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Widgets/Events.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/Frontend/AcaraController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Widgets/Statistics.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/layouts/default.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Widgets/Featured.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/partials/header.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/home/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/widgets/featured.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/layouts/user/menu.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/Frontend/acara/fields.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/Frontend/acara/edit.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/Frontend/acara/create.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/Frontend/acara/table.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Helpers/Event.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/partials/acara/list.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/routes/web.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/EventController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/.env",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/index.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/.htaccess",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Console/Kernel.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/config/app.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Jobs/SendSubscriptionEmail.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Jobs/MassMessage.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Jobs/SendConfirmationEmail.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Console/Commands/SendEmailSubscription.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Jobs/EmailSubscription.php",
+		"/Users/andriansandi/.ssh/known_hosts",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Models/Frontend/Acara.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Widgets/Adaacara.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/database/migrations/2017_02_17_115358_add_field_is_featured_on_acara_table.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/Frontend/acara/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/Auth/RegisterController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Helpers/Image/Anakmuda/Medium.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Helpers/Image/Acara/Medium.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/config/imagecache.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/partials/acara/grid.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/.gitignore",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/pages/privacy.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/pages/table.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/pages/edit.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/pages/fields.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Models/Page.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/Frontend/PageController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/pages/faq.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/pages/about.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/PageController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/plans/fields.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/universities/edit.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/pages/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Http/Controllers/HomeController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/universities/fields.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/universities/table.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/universities/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/database/migrations/2016_11_08_143626_create_people_table.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/database/migrations/2017_02_17_030638_create_pages_table.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/database/migrations/2016_12_10_030424_create_jobs_table.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/users/table.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/resources/less/app.less",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/resources/views/users/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Models/User.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/User.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/database/migrations/2017_02_16_103020_add_phone_to_users_table.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/prestasi/view.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Helpers/AppHelper.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/app/Models/Frontend/Propose.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/views/events/show.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/widgets/events.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/test.php",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/assets/js/app.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/gulpfile.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/composer.json",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/elixir.json",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/gulpfile.js",
+		"/Users/andriansandi/Kerjaan/htdocs/kodr/adaacara/public/themes/adaacara/assets/css/app.css",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/user-details/user-details.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/users/users.html",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/models/user.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/providers/github-users.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/app/app.module.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/users/users.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/organisations/organisations.html",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/app/app.component.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/repos/repos.html",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/organisations/organisations.ts",
+		"/Users/andriansandi/Learning/ionic/githubIonic/src/pages/repos/repos.ts",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/views/submissions/table.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/views/submissions/index.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/assets/sass/pages/_confirmation.scss",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/views/auth/register.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/assets/sass/pages/_register.scss",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/app/Http/Controllers/Site/HomeController.php",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/views/auth/confirmation.blade.php",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/assets/sass/pages/_home.scss",
+		"/Users/andriansandi/Kerjaan/htdocs/mirum/projects/cnc/cnc-iambright/resources/views/index.blade.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content-wrapper",
+			"assets",
+			"img",
+			"content-wrapper",
+			"artikel",
+			"content",
+			"events-lists",
+			"screen-sm-max",
+			"events",
+			".navbar",
+			"inside",
+			"navbar",
+			"history",
+			".avatar",
+			".filter",
+			"filter",
+			".sortedBy",
+			"#ffffff",
+			"event-lists",
+			".avatar",
+			"DocumentRoot",
+			"DirectoryIndex",
+			"User",
+			"Users",
+			"VirtualHOst",
+			".slider",
+			".ttf",
+			"slider__how-to",
+			"section-copy",
+			"navbar",
+			"#",
+			"section__",
+			"section__social",
+			"section_gallery",
+			"section__gallery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"screen-xs-max"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/gallery.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7817,
+								7817
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/assets/less/pages/gallery.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/assets/less/base.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2306,
+								2306
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1465.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/assets/less/pages/recipes.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								1044
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 250.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pp-theme.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

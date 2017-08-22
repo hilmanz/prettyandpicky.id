@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>The Pretty and Picky</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/vendor/select2/select2.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="home">  
+    <nav id="nav" class="navbar navbar-inverse">
+      <div class="main-navigation">
+        <a href="javascript:void(0)" id="btn-close-menu" class="btn-close">x</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tentang The Pretty & Picky</a></li>
+                <li><a href="#">Kontes Sosmed</a></li>
+                <li><a href="#">Acara</a></li>
+                <li><a href="articles.html">Artikel</a></li>
+                <li><a href="recipes.html">Makan Sehat Lezat</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="contact.html">Pesan & Kesan</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="navbar-header">
+              <button type="button" id="btn-open-menu" class="navbar-toggle collapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Project name</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="social-icons text-right">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="#"><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="top__video">
+      <a href="javascript:void(0)" id="btn-play-video" class="btn-play">Play</a>
+      <iframe src="https://www.youtube.com/embed/4_2A1n1mHAk?rel=0&controls=0&howinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="main__banner">
+      <img src="assets/img/main-banner.jpg">
+    </div> 
+
+    <div class="content-wrapper">
+      <div class="widgets-wrapper">
+        <div class="widgets-content">
+          <!-- spotlight widgets -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="widgets banners dibalik-fakta">
+                  <h5>temukan fakta dibalik label makananmu!</h5>
+                  <a href="#" class="btn btn-default">Cari tau disini!</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="widgets banners bmi">
+                  <h5>temukan bentuk <br> badan idealmu!</h5>
+                  <form class="form-horizontal" action="bmi.html" method="post">
+                    <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="tanggal_lahir" class="control-label">Tanggal Lahir</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <input type="text" name="tanggal_lahir" class="form-control" placeholder="TANGGAL">
+                          </div>
+                          <div class="col-md-4">
+                            <input type="text" name="tanggal_lahir" class="form-control" placeholder="BULAN">
+                          </div>
+                          <div class="col-md-4">
+                            <input type="text" name="tanggal_lahir" class="form-control" placeholder="TAHUN">
+                          </div>
+                        </div>   
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label for="berat_badan" class="control-label">Berat Badan</label>
+                            <input type="text" name="tanggal_lahir" class="form-control" placeholder="KG">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="berat_badan" class="control-label">Tinggi Badan</label>
+                            <input type="text" name="tanggal_lahir" class="form-control" placeholder="CM">
+                          </div>
+                        </div>  
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="jenis_kelamin" class="control-label">Jenis Kelamin</label>
+                            <select name="jenis_kelamin" class="select2 form-control">
+                              <option value="">LAKI-LAKI/PEREMPUAN</option>
+                              <option value="1">LAKI-LAKI</option>
+                              <option value="2">PEREMPUAN</option>
+                            </select>
+                            <!-- <input type="text" name="tanggal_lahir" class="form-control" placeholder="LAKI-LAKI / PEREMPUAN"> -->
+                          </div>
+                        </div>  
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // end spotlight widgets -->
+
+        <!-- article widget -->
+        <div class="widgets-wrapper article-widgets-wrapper">
+          <div class="widgets-content">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title">Artikel</h2>
+                  <h6 class="sub-title">Siapa bilang hidup sehat itu susah? <br> Yuk temukan informasi, tips&trik, fakta terbaru dan apa pun yang kamu mau tau di sini!</h6>
+                </div>
+              </div>
+              <div class="lists">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="assets/img/article-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/article-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/article-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/article-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <a href="articles.html" class="btn btn-default">Lihat semua</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // end article widget -->
+
+        <!-- makan sehat widget -->
+        <div class="widgets-wrapper recipes-widgets-wrapper">
+          <div class="widgets-content">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title">Makan Sehat Lezat</h2> 
+                  <h6 class="sub-title">Siapa bilang makanan sehat itu nggak enak? <br> Yuk cari tau gimana enaknya makan makanan sehat buatan sendiri!</h6>
+                </div>
+              </div>
+              <div class="lists">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="overlay">
+                      <a href="#" class="btn-play">Play</a>
+                    </div>
+                    <img src="assets/img/recipe-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/recipe-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="overlay">
+                      <a href="#" class="btn-play">Play</a>
+                    </div>
+                    <img src="assets/img/recipe-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/recipe-small-dummy.png">
+                    <h3>5 makanan sehat bermanfaat</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <a href="gallery.html" class="btn btn-default">Lihat semua</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // end article widget -->
+
+      </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="social-icons text-right">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li class="copyright">&copy; 2017. The Pretty and Picky, all rights reserved.</li>
+          </ul>
+        </div>
+    </footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/select2/select2.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

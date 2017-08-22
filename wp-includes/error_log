@@ -1,0 +1,2 @@
+[15-Mar-2017 09:47:32 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/prettypicky/public_html/wp-includes/rss-functions.php on line 8
+[15-Mar-2017 09:51:52 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/prettypicky/public_html/wp-includes/rss-functions.php on line 8

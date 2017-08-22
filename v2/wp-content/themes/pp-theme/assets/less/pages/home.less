@@ -1,0 +1,291 @@
+/**
+ * Homepage Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 2, 2017 
+ **/
+
+/**
+ * Top Video 
+ **/
+.top__video {
+	background: transparent url("../img/video-placeholder.png") center center / cover;
+	// width: 100vw;
+	height: calc(~"100vh - 80px");
+	padding-top: calc(~"50vh - 139px");
+	margin-top: -96px;
+
+	@media screen and (max-width: @screen-sm-max) {
+		height: calc(~"40vh - 80px");
+		margin-top: -20px;
+		padding-top: calc(~"20vh - 80px");
+	}
+
+	.btn-play {
+		@media screen and (max-width: @screen-sm-max) {
+			width: 80px;
+			height: 80px;
+			background-size: 100%;
+		}
+	}
+
+	iframe {
+		display: none;
+		width: 100vw;
+		height: calc(~"100vh - 81px");
+		margin-top: -75px;
+
+		@media screen and (max-width: @screen-sm-max) {
+			height: calc(~"40vh - 80px");
+			margin-top: 0;
+		}
+	}
+}
+
+.main__banner {
+	background-color: @color-pink;
+	padding-top: 80px;
+
+	@media screen and (max-width: @screen-sm-max) {
+		padding-top: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.content-wrapper {
+	padding-bottom: 0;
+	
+	&:before {
+		display: none;
+	}
+
+	.widgets-wrapper {
+		.widgets {
+			&.banners {
+				width: 587px;
+				height: 318px;
+				margin: 0 auto;
+				padding: 80px 200px 60px 60px;
+
+				h5 {
+					font-family: 'Montserrat-Bold', sans-serif;
+					text-transform: uppercase;
+					margin: 0 0 20px 0;
+				}
+
+				&.dibalik-fakta {
+					background: transparent url("../img/banner1-bg.png") no-repeat;
+					float: right;
+
+					@media screen and (max-width: @screen-sm-max) {
+						width: 100%;
+						background-size: 100%;
+						height: auto;
+						padding: 20px 120px 20px 20px;
+						margin-bottom: 20px;
+					}
+		
+					h5 {
+						color: @color-green;
+						font-size: 2em;
+					    line-height: 1.2em;
+
+					    @media screen and (max-width: @screen-sm-max) {
+							font-size: 1.1em;
+						}
+					}
+
+					.btn {
+						&.btn-default {
+							@media screen and (max-width: @screen-sm-max) {
+								margin-top: 0;
+    							font-size: 0.8em;
+							}
+						}
+					}
+				}
+
+				&.bmi {
+					background: transparent url("../img/banner2-bg.png") no-repeat;
+					float: left;
+					padding-top: 20px;
+					padding-left: 25px;
+
+					@media screen and (max-width: @screen-sm-max) {
+						background-image: url("../img/banner2-bg-mobile.png");
+						width: 100%;
+						background-size: 100%;
+						height: auto;
+						padding: 20px;
+					}
+
+					h5 {
+						color: @color-white;
+						font-size: 1.5em;
+    					line-height: 1.1em;
+    					margin: 0;
+
+    					@media screen and (max-width: @screen-sm-max) {
+    						font-size: 1em;
+    					}
+					}
+
+					.form-horizontal {
+						.form-group {
+							margin-bottom: 5px;
+
+							.row {
+								margin-left: 0;
+								width: 100%;
+    							padding-right: 80px;
+
+								.col-md-4,
+								.col-md-6,
+								.col-md-12 {
+									padding-left: 5px;
+									padding-right: 0;
+
+									&:first-child {
+										padding-left: 0;
+									}
+								}
+
+								.control-label {
+									@media screen and (max-width: @screen-sm-max) {
+										font-size: 0.7em;
+									}
+								}
+
+								.form-control {
+									color: @color-white;
+
+									@media screen and (max-width: @screen-sm-max) {
+									    font-size: 0.6em;
+									    padding: 6px 0;
+									    height: auto;
+									}
+								}
+
+								select {
+									-webkit-appearance: none;
+    								-moz-appearance: none;
+    								// color: @color-black;
+
+    								// &:first-child {
+    								// 	color: @color-white;
+    								// }
+								}
+							}
+
+							.btn {
+								&.btn-default {
+									margin-top: 10px !important;
+
+									@media screen and (max-width: @screen-sm-max) {
+										font-size: 0.8em;
+									}
+								}
+							}
+
+							/**
+							 * Select2 Styles
+							 **/
+							.select2-container--default {
+								.select2-selection--single {
+									background-color: rgba(255,255,255,0.3);
+									border-color: @color-white;
+									font-size: 0.9em;
+									height: auto;
+
+									.select2-selection__rendered {
+										text-align: center;
+										padding-right: 8px;
+										color: @color-white;
+										opacity: 0.8;
+										padding: 4px;
+
+										.select2-selection__placeholder {
+											color: @color-white;
+											font-size: 1em;
+											opacity: 0.8;
+										}
+										
+									}
+								}
+
+								.select2-selection__arrow {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.article-widgets-wrapper, 
+		.recipes-widgets-wrapper {
+			margin-top: 80px;
+
+			@media screen and (max-width: @screen-sm-max) {
+				margin-top: 0;
+			}
+		}
+
+		.article-widgets-wrapper {
+			background: transparent url("../img/article-left-ornament.png") no-repeat top left;
+		}
+
+		.recipes-widgets-wrapper {
+			background: transparent url("../img/recipe-right-ornament.png") no-repeat top right;
+			padding-top: 80px;
+    		margin-top: 0;
+
+    		@media screen and (max-width: @screen-sm-max) {
+    			background: none;
+    			padding-top: 20px;
+    		}
+
+			.lists {
+				h3 {
+					text-align: center;
+					font-family: 'Montserrat-Regular', sans-serif;
+				}
+
+				img {
+					max-width: 100%;
+				}
+			}
+		}
+
+		.instagram-widgets-wrapper {
+			.title {
+				color: @color-white;
+				background: @color-yellow url("../img/the-pretty-and-picky-header-bg.png") left bottom no-repeat;
+				padding-top: 60px;
+				height: 157px;
+				text-shadow: -3px 1px 0px rgba(133, 206, 192, 1);
+				margin-bottom: 60px;
+			}
+
+			.instashow-gallery  {
+				height: auto !important;
+
+				.instashow-gallery-wrapper {
+					height: auto !important;
+
+					.instashow-gallery-container {
+						height: auto !important;
+
+						.instashow-gallery-view {
+							height: auto !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}

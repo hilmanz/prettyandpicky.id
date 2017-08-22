@@ -1,0 +1,54 @@
+/**
+ * About Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 3, 2017 
+ **/
+
+.about {
+	.content-wrapper {
+		background: @color-white url("../img/backgrounds/about-bg.png") no-repeat center center / cover;
+		height: 1285px;
+
+		&:before {
+			display: none;
+		}
+
+		.content-inside {
+			.title {
+				color: @color-green-two;
+				margin-bottom: 80px;
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+			.content-top {
+				position: relative;
+				z-index: 2;
+
+				.quote {
+					color: @color-pink;
+					font-family: 'Montserrat-Bold', sans-serif;
+				    font-size: 1.8em;
+				    text-transform: uppercase;
+				    line-height: 1.5em;
+				    margin-left: 60px;
+				    margin-top: 100px;
+				}
+			}
+
+			.content-bottom {
+				margin-top: -80px;
+				position: relative;
+				z-index: 1;
+				float: left;
+
+				.content-left {
+					padding-top: 140px;
+				}
+			}
+		}
+	}
+}

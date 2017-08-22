@@ -1,0 +1,54 @@
+/**
+ * Gallery Less
+ *
+ * @author 		Kodr Indonesia <halo@kodrindonesia.com>
+ * @since 		Mar 1, 2017 
+ **/
+
+.gallery {
+	.top__video {
+		background: transparent url("../img/video-placeholder.png") center center / cover;
+		height: calc(~"80vh - 80px");
+	    padding-top: calc(~"40vh - 139px");
+	    margin-top: 75px;
+	    position: relative;
+	    z-index: 2;
+	}
+
+	.content-wrapper {
+		margin-top: 0;
+		background: @color-white;
+
+		&:before {
+			content: url("../img/recipes-particle-top-left.png");
+			width: 99px;
+			height: 178px;
+			z-index: 1;
+			bottom: 7vh;
+		}
+
+		&:after {
+			content: url("../img/gallery-bottom-left-ornament.png");
+			width: 301px;
+			height: 67px;
+			position: absolute;
+			left: 0;
+			margin-top: 80px;
+		}
+
+		.title {
+			color: @color-green-two;
+		}
+	}
+
+	.footer {
+		&:before {
+			content: url("../img/gallery-bottom-right-ornament.png");
+			width: 413px;
+			height: 248px;
+			position: absolute;
+			right: 0;
+			margin-top: -308px;
+		}
+	}
+}
